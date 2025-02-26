@@ -1,0 +1,10 @@
+services:
+  sios_es_sample_202412:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: 'sios_es_sample_202412'
+    volumes:
+      - ./:/app
+    ports:
+      - 8501:8501

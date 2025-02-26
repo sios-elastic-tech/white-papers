@@ -1,0 +1,15 @@
+POST /_security/api_key
+{
+  "name": "kakinosuke_write_api_key",
+  "role_descriptors": {
+    "kakinosuke_api_key": {
+      "cluster": ["all"],
+      "indices": [
+        {
+          "names": ["kakinosuke*"],
+          "privileges": ["all"]
+        }
+      ]
+    }
+  }
+}
