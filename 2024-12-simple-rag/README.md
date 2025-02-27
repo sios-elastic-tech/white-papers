@@ -139,6 +139,7 @@ Web Browser から http://localhost:8501/ にアクセスして、RAGを行っ�
 | src/app_kakinosuke_rag.py | 柿之助のRAGアプリケーションの本体 |
 | src/app_kakinosuke_search.py | 柿之助のハイブリッド検索アプリケーションの本体 |
 | src/bulk_from_txt.py | テキストファイルを読み込んで、Elasticsearch へ データ登録するプログラム |
+| src/common_logger.py | ロガー用関数 |
 | src/consts.py | チャンクサイズの定義ファイル |
 | src/split_txt.py | テキストファイルをチャンキングするプログラム |
 | src/elastic/es_consts.py | Elasticsearch関連の定数定義ファイル |
