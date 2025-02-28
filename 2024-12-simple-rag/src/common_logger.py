@@ -16,10 +16,10 @@ logging.basicConfig(
   datefmt="[%X]"
 )
 
-# logger = logging.getLogger(__name__)
-
 class CommonLogger:
-  # logger = None
+  """
+  ロガー用共通クラス
+  """
 
   def __init__(self, name):
     self.logger = logging.getLogger(name)
