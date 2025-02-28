@@ -1,3 +1,9 @@
+"""
+Copyright (c) SIOS Technology, Inc. All rights reserved.
+
+MIT License
+"""
+
 import os
 
 import streamlit as st
@@ -6,11 +12,6 @@ from elastic.es_func import create_es_client, create_search_params, es_search_te
 
 from common_logger import CommonLogger
 
-#
-# Copyright (c) SIOS Technology, Inc. All rights reserved.
-# 
-# MIT License
-# 
 
 highlight = True
 

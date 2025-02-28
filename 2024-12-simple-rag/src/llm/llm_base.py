@@ -1,9 +1,8 @@
-#
-# Copyright (c) SIOS Technology, Inc. All rights reserved.
-# 
-# MIT License
-# 
+"""
+Copyright (c) SIOS Technology, Inc. All rights reserved.
 
+MIT License
+"""
 
 class LlmBase:
   """
