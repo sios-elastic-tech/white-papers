@@ -1,8 +1,8 @@
-#
-# Copyright (c) SIOS Technology, Inc. All rights reserved.
-# 
-# MIT License
-# 
+"""
+Copyright (c) SIOS Technology, Inc. All rights reserved.
+
+MIT License
+"""
 
 DEFAULT_CHUNK_SIZE: int = 200
 

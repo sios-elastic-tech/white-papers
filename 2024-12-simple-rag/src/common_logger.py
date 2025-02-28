@@ -1,10 +1,12 @@
+"""
+Copyright (c) SIOS Technology, Inc. All rights reserved.
+
+MIT License
+"""
+
+
 import logging
 
-#
-# Copyright (c) SIOS Technology, Inc. All rights reserved.
-# 
-# MIT License
-# 
 
 LOG_LEVEL = logging.DEBUG
 

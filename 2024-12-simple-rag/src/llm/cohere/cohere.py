@@ -1,14 +1,14 @@
+"""
+Copyright (c) SIOS Technology, Inc. All rights reserved.
+
+MIT License
+"""
+
 from typing import override
 
 from langchain_cohere import ChatCohere, CohereRagRetriever
 from langchain_core.documents import Document
 from llm.llm_base import LlmBase
-
-#
-# Copyright (c) SIOS Technology, Inc. All rights reserved.
-# 
-# MIT License
-# 
 
 
 class Cohere(LlmBase):
@@ -49,4 +49,3 @@ class Cohere(LlmBase):
     なお、引用元は、citations に含まれている。
     """
     return response[-1].page_content
-

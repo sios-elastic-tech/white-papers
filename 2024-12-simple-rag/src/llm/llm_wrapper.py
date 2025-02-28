@@ -1,12 +1,13 @@
+"""
+Copyright (c) SIOS Technology, Inc. All rights reserved.
+
+MIT License
+"""
+
 from llm.cohere.cohere import Cohere
 from llm.llm_base import LlmBase
 from llm.llm_consts import COHERE_COMMAND_R, COHERE_COMMAND_R_PLUS
 
-#
-# Copyright (c) SIOS Technology, Inc. All rights reserved.
-# 
-# MIT License
-# 
 
 def create_llm_base(api_key, model_id):
   """
@@ -24,4 +25,3 @@ def create_llm_base(api_key, model_id):
   llm_base.llm = llm_base.create_llm(api_key=api_key, model_id=model_id)
 
   return llm_base
-

@@ -1,12 +1,12 @@
+"""
+Copyright (c) SIOS Technology, Inc. All rights reserved.
+
+MIT License
+"""
+
 from elastic.es_consts import SEARCH_INDEX, SEARCH_TEMPLATE_ID
 from elasticsearch import Elasticsearch, helpers
 from common_logger import CommonLogger
-
-#
-# Copyright (c) SIOS Technology, Inc. All rights reserved.
-# 
-# MIT License
-# 
 
 
 def create_es_client(elasticsearch_endpoint, api_key_encoded):

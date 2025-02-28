@@ -1,3 +1,15 @@
+"""
+Copyright (c) SIOS Technology, Inc. All rights reserved.
+
+MIT License
+
+text を読み込んで、bulk により 文章と登録するツール
+
+usage: python bulk_from_txt.py chunked_textfilepath
+
+登録先のindex名などは、es_consts.py に記載しておく。
+"""
+
 import os
 import sys
 
@@ -7,16 +19,6 @@ from elastic.es_func import create_es_client, refresh_index, streaming_bulk_wrap
 
 from common_logger import CommonLogger
 
-#
-# Copyright (c) SIOS Technology, Inc. All rights reserved.
-# 
-# MIT License
-# 
-# text を読み込んで、bulk により 文章と登録するツール
-#
-# usage: python bulk_from_txt.py chunked_textfilepath
-#
-# 登録先のindex名などは、es_consts.py に記載しておく。
 
 logger = CommonLogger(__name__)
 

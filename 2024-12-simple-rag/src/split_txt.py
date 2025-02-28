@@ -1,27 +1,25 @@
+"""
+Copyright (c) SIOS Technology, Inc. All rights reserved.
+
+MIT License
+
+text を読み込んで、content を チャンク分割するツール
+
+usage: python split_txt.py textfilepath chunksize overlapsize
+
+chunksize, overlapsize の単位は、文字数。（バイト数ではない。）
+  -> 読み込み元の textfilepath と同じディレクトリ に分割後の txt が出力される。
+"""
+
 import re
 import sys
 
 from consts import DEFAULT_CHUNK_SIZE, DEFAULT_OVERLAP, MIN_CHUNK_SIZE, MIN_OVERLAP
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-#
-# Copyright (c) SIOS Technology, Inc. All rights reserved.
-# 
-# MIT License
-# 
-# text を読み込んで、content を チャンク分割するツール
-#
-# usage: python split_txt.py textfilepath chunksize overlapsize
-#
-# chunksize, overlapsize の単位は、文字数。（バイト数ではない。）
-#
-#   -> 読み込み元の textfilepath と同じディレクトリ に分割後の txt が出力される。
-#
 
-#----- 定数定義 ----->>>
 # chunk分割時のセパレーター
 separators = ["\n\n", "\n", "」", "。", "）", "、", "，", " ", ""]
-#----- 定数定義 -----<<<
 
 
 class JapaneseCharacterTextSplitter(RecursiveCharacterTextSplitter):
