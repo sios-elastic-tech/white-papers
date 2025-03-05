@@ -1,3 +1,6 @@
+# エイリアスの作成
+
+```
 POST _aliases
 {
   "actions": [
@@ -9,3 +12,4 @@ POST _aliases
     }
   ]
 }
+```
