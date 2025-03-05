@@ -1,3 +1,6 @@
+# インデックスのフィールドの作成
+
+```
 PUT /kakinosuke_v1/_mappings
 {
   "dynamic": false,
@@ -24,3 +27,4 @@ PUT /kakinosuke_v1/_mappings
     }
   }
 }
+```

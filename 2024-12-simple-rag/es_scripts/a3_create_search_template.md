@@ -1,3 +1,6 @@
+# ハイブリッド検索(RRF)のテンプレートの作成
+
+```
 PUT _scripts/rrf_search_template
 {
   "script": {
@@ -50,3 +53,4 @@ PUT _scripts/rrf_search_template
     """
   }
 }
+```
