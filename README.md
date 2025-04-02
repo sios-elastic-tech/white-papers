@@ -1,5 +1,6 @@
 # white-papers
-A repository for white paper sources.
+
+[https://elastic.sios.jp/whitepaper/](https://elastic.sios.jp/whitepaper/) で公開している Elasticsearch 関連のホワイトペーパーに付随するソースコード。
 
 
 | フォルダ | 説明 |
