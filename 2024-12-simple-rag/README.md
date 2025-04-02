@@ -128,24 +128,25 @@ Web Browser から http://localhost:8501/ にアクセスして、RAGを行っ�
 
 | 相対ファイルパス | 説明 |
 |---|---|
-| ./.env | 接続に必要な API Key などを記載するファイル |
-| ./docker-compose.yml | Docker の Compose ファイル |
-| ./Dockerfile | Docerfile |
+| [./.env](./.env) | 接続に必要な API Key などを記載するファイル |
+| [./docker-compose.yml](./docker-compose.yml) | Docker の Compose ファイル |
+| [./Dockerfile](./Dockerfile) | Docerfile |
+| [./LICENSE](./LICENSE) | ライセンスファイル |
 | ./README.md | このファイル |
-| ./requirements.txt | 動作に必要なライブラリの指定ファイル |
-| data/kakinosuke.txt | 桃太郎を改変した柿之助のお話 |
-| data/README.md | kakinosuke.txt の説明 |
-| es_scripts/*.txt | Elasticsearch用の各種設定スクリプト |
-| src/app_kakinosuke_rag.py | 柿之助のRAGアプリケーションの本体 |
-| src/app_kakinosuke_search.py | 柿之助のハイブリッド検索アプリケーションの本体 |
-| src/bulk_from_txt.py | テキストファイルを読み込んで、Elasticsearch へ データ登録するプログラム |
-| src/common_logger.py | ロガー用関数 |
-| src/consts.py | チャンクサイズの定義ファイル |
-| src/split_txt.py | テキストファイルをチャンキングするプログラム |
-| src/elastic/es_consts.py | Elasticsearch関連の定数定義ファイル |
-| src/elastic/es_func.py | Elasticsearch関連の関数を集めたファイル |
-| src/llm/llm_base.py | LLM関連の基底クラス |
-| src/llm/llm_consts.py | LLM関連の定数定義ファイル |
-| src/llm/llm_wapper.py | LLM関連の処理を呼び出すためのラッパー |
-| src/llm/cohere/cohere.py | Cohere用のクラス |
+| [./requirements.txt](./requirements.txt) | 動作に必要なライブラリの指定ファイル |
+| [data/kakinosuke.txt](data/kakinosuke.txt) | 桃太郎を改変した柿之助のお話 |
+| [data/README.md](data/README.md) | kakinosuke.txt の説明 |
+| [es_scripts/*.txt](es_scripts/) | Elasticsearch用の各種設定スクリプト |
+| [src/app_kakinosuke_rag.py](src/app_kakinosuke_rag.py) | 柿之助のRAGアプリケーションの本体 |
+| [src/app_kakinosuke_search.py](src/app_kakinosuke_search.py) | 柿之助のハイブリッド検索アプリケーションの本体 |
+| [src/bulk_from_txt.py](src/bulk_from_txt.py) | テキストファイルを読み込んで、Elasticsearch へ データ登録するプログラム |
+| [src/common_logger.py](src/common_logger.py) | ロガー用関数 |
+| [src/consts.py](src/consts.py) | チャンクサイズの定義ファイル |
+| [src/split_txt.py](src/split_txt.py) | テキストファイルをチャンキングするプログラム |
+| [src/elastic/es_consts.py](src/elastic/es_consts.py) | Elasticsearch関連の定数定義ファイル |
+| [src/elastic/es_func.py](src/elastic/es_func.py) | Elasticsearch関連の関数を集めたファイル |
+| [src/llm/llm_base.py](src/llm/llm_base.py) | LLM関連の基底クラス |
+| [src/llm/llm_consts.py](src/llm/llm_consts.py) | LLM関連の定数定義ファイル |
+| [src/llm/llm_wrapper.py](src/llm/llm_wrapper.py) | LLM関連の処理を呼び出すためのラッパー |
+| [src/llm/cohere/cohere.py](src/llm/cohere/cohere.py) | Cohere用のクラス |
 
